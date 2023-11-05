@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator{
+    display:flex;
+    border:1px solid black ;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.btn{
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    font-size: 25px;
+    background-color: #F3FAEF;
+    border-radius: 5px;
+    margin: 0.1rem;
+}
+
+.btn:hover{
+    background-color: #EBFEE0;
+}
+.display{
+    font-size: 45px;
+    text-align: right;
+    padding: 25px;
+    border: 1px solid #C7C9C6;
+    border-radius: 3px;
+    margin:10px 0;
+}
